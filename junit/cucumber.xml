@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.063905">
+<testcase classname="Nopcommerce Login" name="NOpCommerce Valid Register Test" time="7.063905">
+<failure message="java.lang.AssertionError: Home page title not matched expected [nopCommerce demo store] but found [nopCommerce demo store. Register]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:99)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:1037)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:140)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:122)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:629)&#13;&#10;&#9;at ResultVerification.ResultVerificationForHomePage.HomePageTitle(ResultVerificationForHomePage.java:10)&#13;&#10;&#9;at StepDefinations.Register.user_is_on_Home_Page_and_Verify_Home_page_Title(Register.java:35)&#13;&#10;&#9;at ✽.Then User is on Home Page and Verify Home page Title(src/test/resources/Features/Register.feature:9)&#13;&#10;"><![CDATA[When User click on Register Link............................................passed
+And User on Register Page and Verify Register page Title....................passed
+Then User Enter Gender, First Name, Last Name, Date of Birthday, Date Of Birthday Month, Date of Birth Year,Email, Company Name, Password and Confirm Password on Register Button.passed
+Then User is on Home Page and Verify Home page Title........................failed
+And User close the Browser..................................................undefined
+
+StackTrace:
+java.lang.AssertionError: Home page title not matched expected [nopCommerce demo store] but found [nopCommerce demo store. Register]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at ResultVerification.ResultVerificationForHomePage.HomePageTitle(ResultVerificationForHomePage.java:10)
+	at StepDefinations.Register.user_is_on_Home_Page_and_Verify_Home_page_Title(Register.java:35)
+	at ✽.Then User is on Home Page and Verify Home page Title(src/test/resources/Features/Register.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
